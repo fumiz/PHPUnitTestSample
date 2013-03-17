@@ -3,11 +3,9 @@
 ## PHPUnitのインストール
 PEARでインストールするのが一番楽です
 
-'''
-sudo pear channel-discover pear.symfony.com
-sudo pear channel-discover pear.phpunit.de
-sudo pear install phpunit/PHPUnit
-'''
+    sudo pear channel-discover pear.symfony.com
+    sudo pear channel-discover pear.phpunit.de
+    sudo pear install phpunit/PHPUnit
 
 もしPEARを使うのがはじめてなら、php.iniのinclude_pathにPEARのディレクトリを入れるのを忘れないで!
 
